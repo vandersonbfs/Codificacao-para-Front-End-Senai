@@ -1,0 +1,86 @@
+/* Estilos globais para toda a página */
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Definindo a fonte padrão para todo o conteúdo */
+}
+
+/* Estilos para o cabeçalho */
+header img {
+    width: 70px;  /* Largura da imagem no cabeçalho (logo) */
+    height: 70px; /* Altura da imagem no cabeçalho (logo) */
+}
+
+/* Estilos para o Banner (seção de imagens rotativas) */
+#section-banner img {
+    height: 500px; /* Define a altura da imagem no carrossel */
+}
+
+/* Estilos para a seção dos produtos mais vendidos */
+#section-vendidos {
+    text-align: center; /* Centraliza o conteúdo da seção */
+}
+
+#section-vendidos h2 {
+    font-weight: bold;  /* Título em negrito */
+    padding: 20px;      /* Espaçamento interno ao redor do título */
+}
+
+#section-vendidos img {
+    height: 400px;           /* Define a altura das imagens dos produtos */
+    border-radius: 10px;     /* Bordas arredondadas nas imagens */
+}
+
+#section-vendidos .card {
+    margin: 5px;             /* Espaçamento entre os cards de produtos */
+    border: 2px solid #ccc; /* Borda dos cards (cor cinza clara) */
+    border-radius: 10px;    /* Bordas arredondadas nos cards */
+}
+
+#section-vendidos .preco {
+    color: red;             /* Cor vermelha para destacar o preço */
+    font-size: 18px;        /* Tamanho maior para o preço */
+    font-weight: bold;      /* Deixa o preço em negrito */
+}
+
+/* Estilos para o rodapé */
+footer {
+    position: relative; /* Definindo a posição do rodapé */
+    bottom: 0;          /* Fica na parte inferior da página */
+}
+
+footer p {
+    text-align: center; /* Centraliza o texto do rodapé */
+    font-weight: bold;  /* Deixa o texto do rodapé em negrito */
+    padding: 10px;      /* Espaçamento interno ao redor do texto */
+}
+
+/* Estilos para o botão "Voltar ao topo" */
+#voltar-topo {
+    position: fixed;    /* Deixa o botão fixo na tela */
+    bottom: 5px;        /* Distância do botão da parte inferior da página */
+    right: 50px;        /* Distância do botão da parte direita da página */
+}
+
+/* Estilos para a página de Login */
+#section-login {
+    margin-top: 100px;   /* Espaço superior da seção de login */
+}
+
+#section-login h1 {
+    text-align: center;  /* Centraliza o título da seção de login */
+}
+
+#section-login input {
+    width: 100%;         /* Faz os campos de input ocuparem toda a largura */
+}
+
+/* Estilos para a seção de cadastro */
+#section-cadastro {
+    padding: 5px;        /* Espaçamento interno da seção de cadastro */
+    text-align: center;  /* Centraliza o conteúdo da seção de cadastro */
+    background-color: #fff; /* Cor de fundo branca para a seção de cadastro */
+}
+
+#form-cadastrar {
+    padding: 50px;       /* Espaçamento interno ao redor do formulário de cadastro */
+    display: none;       /* Oculta o formulário de cadastro por padrão */
+}
